@@ -31,14 +31,18 @@ Before running this application, make sure you have installed:
    ```
    This command will run **Laravel**, **MySQL**, and **Vite** inside Docker containers.
 
-4. **Run migrations and seeders**
+4. **Generate application key**
+   ```sh
+   docker compose exec app php artisan key:generate
+   ```
+
+5. **Run migrations and seeders**
    ```sh
    docker compose exec app php artisan migrate --seed --force
    ```
 
-5. **Access the application**
+6. **Access the application**
    - Application: [http://localhost:80](http://localhost:80)
-   - phpMyAdmin: [http://localhost:8080](http://localhost:8080) (optional if included)
 
 ## 🔄 **Useful Commands**
 - **View container logs**:
