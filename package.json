@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "npx vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.17",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "material-design-icons-iconfont": "^6.7.0",
+        "postcss": "^8.4.33",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.0.0",
+        "@types/lodash.debounce": "^4.0.9"
+    },
+    "dependencies": {
+        "@inertiajs/vue3": "^1.0.14",
+        "@vitejs/plugin-vue": "^5.0.3",
+        "lodash.debounce": "^4.0.8",
+        "vue": "^3.4.15",
+        "vuetify": "^3.5.1"
+    },
+    "optionalDependencies": {
+        "@rollup/rollup-linux-x64-musl": "4.34.8"
+     }
+}
